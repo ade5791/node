@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
  res.send("welcome to the home page baby");
 });
 
-const port = procress.env.port || 3000;
+const port = process.env.port || 3000;
 
 app.listen(port, () => {
     console.log ("wazzappp");
